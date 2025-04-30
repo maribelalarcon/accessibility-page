@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotografia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img
+            src="imgs/logo1.png"
+            class="logo"
+            alt="logo, camara de foto con el nombre Maribel photo"
+          />
+        </li>
+        <li><a href="#home" title="Ir a la pagina principal">Home</a></li>
+        <li>
+          <a href="#contacto" title="Envia a la pagina de contacto">Contacto</a>
+        </li>
+        <li>
+          <a href="#validacion" title="Ver validacion de accesibilidad"
+            >Validacion</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Fotografía tu momento</h1>
+      <section id="home" class="photos">
+        <figure>
+          <img src="imgs/fotos_de_familia_1 (1).jpg" alt="foto familiar" />
+          <figcaption>Fotografia familiar</figcaption>
+          <details>
+            <summary>Detalle</summary>
+            <p>
+              La fotografía familiar busca retratar los lazos, el amor y las
+              relaciones dentro de la familia. Estas sesiones suelen ser más
+              cercanas y emocionales, capturando la conexión entre los miembros
+              de la familia en un ambiente relajado y genuino. Es ideal para
+              crear recuerdos duraderos de momentos compartidos en familia, como
+              celebraciones, paseos o simplemente un día en casa.
+            </p>
+          </details>
+        </figure>
+
+        <figure>
+          <img src="imgs/sesion-infantil (1).jpg" alt="foto infantiles" />
+          <figcaption>Fotografia infantiles</figcaption>
+          <details>
+            <summary>Detalle</summary>
+            <p>
+              La fotografía infantil captura los momentos más especiales y
+              tiernos de los niños, desde sus primeras sonrisas hasta sus logros
+              más importantes. Se enfoca en resaltar la inocencia, la diversión
+              y la personalidad de los pequeños a través de imágenes naturales y
+              espontáneas. Es una forma de inmortalizar la infancia con imágenes
+              llenas de color, alegría y emoción.
+            </p>
+          </details>
+        </figure>
+
+        <figure>
+          <img src="imgs/foto-corporativo (1).jpg" alt="foto empresarial" />
+          <figcaption>Fotografia empresarial</figcaption>
+          <details>
+            <summary>Detalle</summary>
+            <p>
+              La fotografía empresarial está orientada a crear imágenes
+              profesionales para mostrar la identidad, los valores y la imagen
+              de una empresa. Estas fotos se utilizan en sitios web, material
+              promocional, perfiles de redes sociales y otros medios
+              corporativos. Pueden incluir retratos de los empleados, fotos de
+              productos, oficinas o eventos empresariales, con el objetivo de
+              proyectar una imagen de profesionalismo y confianza.
+            </p>
+          </details>
+        </figure>
+      </section>
+
+      <!-- Formulario -->
+      <section id="contacto">
+        <h2>Formulario de contacto</h2>
+        <form action="" class="formulario">
+          <label for="name">
+            Nombre:
+            <input type="text" id="name" name="name" placeholder="Nombre" />
+          </label>
+
+          <label for="email">
+            Email:
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </label>
+
+          <label for="message">
+            Mensaje:
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Mensaje"
+            ></textarea>
+          </label>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <!-- Validacion -->
+      <h2>Validacion de Accesibilidad</h2>
+      <section id="validacion" class="validacion">
+        <figure>
+          <img src="imgs/validacion1.png" alt="imagen de validacion" />
+        </figure>
+        <figure>
+          <img src="imgs/validacion2.png" alt="imagen de validacion" />
+        </figure>
+        <figure>
+          <img src="imgs/validacion3.png" alt="imagen de validacion" />
+        </figure>
+        <figure>
+          <img src="imgs/validacion4.png" alt="imagen de validacion" />
+        </figure>
+      </section>
+
+      <!--Footer-->
+      <footer>
+        <p>© 2025 Maribel Alarcon. Todos los derechos reservados.</p>
+      </footer>
+    </main>
+  </body>
+</html>
